@@ -1,0 +1,27 @@
+.programm {
+    position: relative;
+    text-align: center;
+}
+
+.programm-title {
+    width: 346.43px;
+    line-height: 49px;
+    margin: 0 auto;
+    margin-bottom: 40.84px;
+}
+
+.dumbbell {
+    position: absolute;
+    top: 10px;
+    right: 129px;
+    width: 88px;
+    aspect-ratio: 1/1;
+    background-image: url(../icon/dumbbell.svg);
+}
+
+.programm-block {
+    width: 865px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}

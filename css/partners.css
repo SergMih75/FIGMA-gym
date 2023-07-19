@@ -1,0 +1,8 @@
+.partners {
+    width: 560px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85.88px;
+}
