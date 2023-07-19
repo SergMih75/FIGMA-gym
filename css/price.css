@@ -1,0 +1,121 @@
+.price {
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.price-title {
+    color: #FFF;
+    font-size: 32.669px;
+    font-weight: 700;
+    line-height: 42.197px; /* 129.167% */
+    text-transform: capitalize;
+}
+
+.price-text {
+    width: 415.8px;
+    margin: 0 auto;
+    margin-top: 13.615px;
+    margin-bottom: 40.8px;
+    color: #E7E0E0;
+    font-size: 10.89px;
+    font-weight: 400;
+    line-height: 160%; /* 17.423px */
+}
+
+.price-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 102.9px;
+}
+
+.price-item {
+    width: 272.239px;
+    padding-top: 40.8px;
+    padding-left: 47.6px;
+    padding-bottom: 31.3px;
+    border-radius: 2.042px;
+    background: #030712;
+    text-align: left;
+}
+
+.price-item:hover {
+    background-color: #ff6726;
+}
+
+.item-title {
+    color: #FFF;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 16.334px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.696px; /* 108.333% */
+    text-transform: capitalize;
+    margin-bottom: 36.75px;
+}
+
+.item-text {
+    color: #FFF;
+    font-size: 28.585px;
+    font-weight: 700;
+    line-height: 17.696px; /* 61.905% */
+    text-transform: capitalize;
+    margin-bottom: 29.95px;
+}
+
+.price-list-yes,
+.price-list-no {
+    background-repeat: no-repeat;
+    padding-left: 23px;
+    font-size: 12.251px;
+    font-weight: 400;
+    line-height: 17.696px; /* 144.444% */
+    text-transform: capitalize;
+    margin-bottom: 9.53px;
+}
+
+.price-list-yes {
+    background-image: url(../icon/yes.svg);
+    color: #FFF;
+}
+
+.price-item:hover .price-list-yes {
+    background-image: url(../icon/yes-active.svg);
+}
+
+.price-list-no {
+    background-image: url(../icon/no.svg);
+    color: #9b9b9b;
+}
+
+.price-item:hover .price-list-no {
+    background-image: url(../icon/no-active.svg);
+}
+
+.price-btn {
+    display: block;
+    margin-top: 44.92px;
+    padding-top: 7.57px;
+    width: 176.955px;
+    height: 35.391px;
+    flex-shrink: 0;
+    border-radius: 2.042px;
+    border: 0.681px solid #52A745;
+    color: #5ABA4A;
+    text-align: center;
+    font-size: 12.251px;
+    font-weight: 700;
+    line-height: 17.696px; /* 144.444% */
+    text-transform: capitalize;
+}
+
+.price-item:hover .price-btn {
+    background-color: #fff;
+}
+
+.price-btn:hover {
+    -webkit-box-shadow: inset 0px 0px 16px -8px rgba(0,0,0,0.22); 
+    box-shadow: inset 0px 0px 16px -8px rgba(0,0,0,0.22);
+    text-shadow: 0px 0px 15px rgba(38, 36, 35, 0.587);
+}

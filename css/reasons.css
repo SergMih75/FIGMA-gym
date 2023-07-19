@@ -1,0 +1,57 @@
+.reasons {
+    /* width: 865px;
+    margin: 0 auto; */
+    margin-left: 57.85px;
+    position: relative;
+    padding-bottom: 202px;
+}
+
+.reasons-title {
+    color: #FFF;
+    font-size: 32.669px;
+    font-weight: 700;
+    line-height: 42.197px; /* 129.167% */
+    text-transform: capitalize;
+    margin-bottom: 13px;
+}
+.reasons-text {
+    width: 308.31px;
+    color: #E7E0E0;
+    font-size: 10.89px;
+    font-weight: 400;
+    line-height: 160%; /* 17.423px */
+    text-transform: capitalize;
+    margin-bottom: 34.71px;
+}
+
+.reasons-list {
+    background-image: url(../icon/li-decoration.svg);
+    background-repeat: no-repeat;
+    padding-left: 23px;
+    width: 308px;
+    margin-bottom: 14.9px;
+    color: #FFF;
+    font-size: 13.612px;
+    font-weight: 400;
+    vertical-align: middle;
+    line-height: 19.334px;
+    text-transform: capitalize;
+}
+
+.reasons-img {
+    width: 611.176px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 2.042px;
+    background: #030712;
+    padding: 28px 58px 28px 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reasons-img-small {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
