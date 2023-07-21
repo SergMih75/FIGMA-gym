@@ -1,0 +1,89 @@
+.subcribe {
+        width: 871.164px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 67.38px;
+    padding-bottom: 49px;
+    border-radius: 2.722px;
+    background: #030712;
+    text-align: center;
+}
+
+.subcribe-title {
+    color: #FFF;
+    font-size: 32.669px;
+    font-weight: 700;
+    line-height: 20.418px; /* 62.5% */
+    text-transform: capitalize;
+    margin-bottom: 13.61px;
+}
+
+.subcribe-text {
+    color: #D4D4D4;
+    font-size: 10.89px;
+    font-weight: 400;
+    line-height: 17.696px; /* 162.5% */
+    width: 374.328px;
+    margin: 0 auto;
+    margin-bottom: 29.95px;
+}
+
+.subcribe-form  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 372px;
+    margin: 0 auto;
+}
+
+.subcribe-form-email {
+    width: 266.113px;
+    height: 36.752px;
+    padding-left: 16.33px;
+    background-color: #030712;
+    border-radius: 2.042px;
+    border: 0.681px solid #9DAD9A;
+    color: #878585;
+    font-family: Poppins;
+    font-size: 10.89px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.418px; /* 187.5% */
+    text-transform: capitalize;
+}
+
+.subcribe-form-btn {
+    width: 99.367px;
+    height: 36.752px;
+    background-color: #030712;
+    border-radius: 2.042px;
+    border: 0.681px solid #5ABA4A;
+    color: #EDEEF1;
+    font-family: Poppins;
+    font-size: 13.612px;
+    font-weight: 500;
+    line-height: 20.418px; /* 150% */
+    text-transform: capitalize;
+}
+
+.subcribe-form-btn:hover {
+    border: 0.681px solid #ff6726;
+    color: #5ABA4A;
+}
+
+.cub-block-three {
+    left: 73.875px;
+}
+
+.cub-block-four {
+    top: 0;
+    bottom: auto;
+    right: 81.46px;
+}
+
+.subcribe-star {
+    position: absolute;
+    top: 49px;
+    right: 98.52px;
+}
