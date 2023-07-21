@@ -26,3 +26,23 @@ back.addEventListener('click', function goback() {
     }
     sliderLine.style.left=-left+'px'
 }})
+
+let videoBtn = document.querySelector(".video-btn");
+let popup = document.querySelector('.popup');
+let popupClose = document.querySelector('.popup-close');
+let video = document.getElementById("video")
+let bodyScroll = document.querySelector('.wrapper');
+
+videoBtn.addEventListener ("click", ()=> {
+    popup.style.display="block";
+    video.play();
+    bodyScroll.scrollTop=0;
+    bodyScroll.style.overflow="hidden";
+    
+})
+
+popupClose.addEventListener ('click', ()=> {
+    video.pause();
+    popup.style.display="none";
+    bodyScroll.style.overflow="auto";
+})

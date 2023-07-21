@@ -25,6 +25,11 @@ h2 {
     line-height: 20.418px; /* 62.5% */
 }
 
+.wrapper {
+    width: 100wv;
+    position: relative;
+}
+
 .main {
     width: 969px;
     margin: 0 auto;

@@ -1,0 +1,37 @@
+.popup {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0c0202d5;
+}
+
+.popup-close {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 16vh;
+    left: 64vw;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    color: #ff6565;
+    font-weight: 700;
+}
+
+.popup-table {
+    width: 441.6px;
+    height: 576px;
+    border-radius: 4px;
+    border: 2px solid #080d17ef;
+    margin: 0 auto;
+    margin-top: 20vh;
+    background-color: #fff;
+    border-radius: 3px;
+    z-index: 2;
+}
