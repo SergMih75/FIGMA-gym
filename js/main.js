@@ -30,21 +30,21 @@ back.addEventListener('click', function goback() {
 let videoBtn = document.querySelector(".video-btn");
 let popup = document.querySelector('.popup');
 let popupClose = document.querySelector('.popup-close');
-// let video = document.getElementById("video")
+let video = document.getElementById("video")
 // let bodyScroll = document.querySelector('.wrapper');
 
 videoBtn.addEventListener ("click", ()=> {
 //     popup.style.display="block";
     popup.style.opacity=1;
     popup.style.visibility="visible";
-//     video.play();
+    video.play();
 //     bodyScroll.scrollTop=0;
 //     bodyScroll.style.overflow="hidden";
     
 })
 
 popupClose.addEventListener ('click', ()=> {
-//     video.pause();
+    video.pause();
     popup.style.opacity=0;
     popup.style.visibility="hidden";
 //     bodyScroll.style.overflow="auto";
