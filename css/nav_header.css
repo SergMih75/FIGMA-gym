@@ -26,14 +26,16 @@ h2 {
 }
 
 .wrapper {
-    width: 100wv;
+    /* width: 100vw; */
     position: relative;
+    /* overflow-y: hidden; */
 }
 
 .main {
     width: 969px;
     margin: 0 auto;
     overflow: hidden;
+    /* overflow-y: scroll; */
     background-color: #192023;
 }
 

@@ -65,11 +65,13 @@
     position: absolute;
     top: 0;
     left: 0;
+    scroll-snap-type: x mandatory;
 }
 
 .reviews-slider-item {
     width: 482px;
     padding-top: 76.23px;
+    scroll-snap-align: start;
 }
 
 .reviews-clien-name {

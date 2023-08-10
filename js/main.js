@@ -49,3 +49,7 @@ popupClose.addEventListener ('click', ()=> {
     popup.style.visibility="hidden";
     bodyScroll.style.overflow="auto";
 })
+
+// window.addEventListener('scroll', () => { 
+//         console.log(scrollY);
+// })
